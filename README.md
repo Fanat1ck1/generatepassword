@@ -12,4 +12,5 @@ This code is a useful tool for generating random and secure passwords, and it de
 If you want to run via .cs:
 
 Open a new terminal (Terminal -> New Terminal)
+
 Type the command: dotnet run
