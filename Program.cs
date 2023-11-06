@@ -18,19 +18,19 @@ class Program
     static void Main(string[] args)
     {
         Console.OutputEncoding = Encoding.UTF8;
-        Console.Write("Введіть довжину пароля: ");
+        Console.Write("Enter the password length: ");
         int passwordLength = int.Parse(Console.ReadLine());
-        Console.WriteLine("З чого буде складатися пароль: ");
-        Console.WriteLine("1.Цифр");
-        Console.WriteLine("2.Букв");
-        Console.WriteLine("3.Цифр та букв");
-        Console.WriteLine("4.Спец. символів");
-        Console.WriteLine("5.Цифр і спец. символів");
-        Console.WriteLine("6.Букв і спец. символів");
-        Console.WriteLine("7.Букв, цифр и спец. символів");
-        Console.Write("Який з наборів ви хочете використовувати: ");
+        Console.WriteLine("What should the password consist of: ");
+        Console.WriteLine("1. Digits");
+        Console.WriteLine("2. Letters");
+        Console.WriteLine("3. Digits and Letters");
+        Console.WriteLine("4. Special Symbols");
+        Console.WriteLine("5. Digits and Special Symbols");
+        Console.WriteLine("6. Letters and Special Symbols");
+        Console.WriteLine("7. Letters, Digits, and Special Symbols");
+        Console.Write("Which character set do you want to use: ");
         int charSet = int.Parse(Console.ReadLine());
-        Console.WriteLine("Ваш пароль: [{0}]", GeneratePassword((PasswordChars)charSet, passwordLength));
+        Console.WriteLine("Your password: [{0}]", GeneratePassword((PasswordChars)charSet, passwordLength));
         Console.ReadLine();
     }
 
