@@ -7,3 +7,9 @@ The PasswordChars enum is used to represent these character sets using bitwise f
 The program then prompts the user for the desired password length and the character sets they want to include. It uses a random number generator to create a password of the specified length, composed of characters from the selected character sets.
 
 This code is a useful tool for generating random and secure passwords, and it demonstrates the use of enums, string manipulation, and random number generation in C#.
+
+# How to run
+If you want to run via .cs:
+
+Open a new terminal (Terminal -> New Terminal)
+Type the command: dotnet run
