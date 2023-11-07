@@ -13,4 +13,5 @@ If you want to run via .cs:
 
 1. Open a new terminal (Terminal -> New Terminal)
 2. Type the command: dotnet run
+
 Discord: tony888.8
